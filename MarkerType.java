@@ -1,5 +1,7 @@
-public class MarkerTypes {
+//Task2
+//-----------------------------------
+public class MarkerType {
     public static final String HOSPITAL = "hospital";
-    public static final String RESTURANT = "restaurant";
-    public static final String GAS = "gas_station";
+    public static final String RESTAURANT = "restaurant";
+    public static final String GAS = "gas";
 }

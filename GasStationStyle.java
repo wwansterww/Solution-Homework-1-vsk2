@@ -1,5 +1,8 @@
-public class GasStationMarker implements MarkerStyle {
+//Task2
+//-----------------------------------
+public class GasStationStyle implements IMarkerStyle {
+    @Override
     public void draw() {
-        System.out.println("  [Gas] ICON: Fuel symbol");
+        System.out.println("  [Gas Station] icon: fuel pump");
     }
 }

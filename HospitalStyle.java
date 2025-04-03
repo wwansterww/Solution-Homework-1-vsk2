@@ -1,5 +1,8 @@
-public class HospitalMarker implements MarkerStyle {
+//Task2
+//-----------------------------------
+public class HospitalStyle implements IMarkerStyle {
+    @Override
     public void draw() {
-        System.out.println("  [Hospital] ICON: RED +");
+        System.out.println("  [Hospital] icon: red cross");
     }
 }
