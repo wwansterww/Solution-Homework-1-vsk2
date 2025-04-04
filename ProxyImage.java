@@ -10,7 +10,7 @@ public class ProxyImage implements Image {
 
     @Override
     public void display() {
-        System.out.println(" image thumbnail " + filename);
+        System.out.println("| Displaying a thumbnail of the image |" + filename);
 
         if (realImage == null) {
             realImage = new RealImage(filename);
@@ -18,5 +18,6 @@ public class ProxyImage implements Image {
         realImage.display();
     }
 }
+
 //----------------------------------------------------------------------------------------------------------------------
 

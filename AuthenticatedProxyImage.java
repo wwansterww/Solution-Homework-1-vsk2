@@ -18,7 +18,7 @@ public class AuthenticatedProxyImage implements Image {
             }
             proxyImage.display();
         } else {
-            System.out.println("Eror");
+            System.out.println("| Error | You must be logged in to see the image |");
         }
     }
 }
